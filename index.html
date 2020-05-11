@@ -11,52 +11,59 @@
   <body>
     <header>
       <nav class="navigation">
-        <a href="#" class="navigation__element">O mnie</a>
-        <a href="#" class="navigation__element">Kontakt</a>
-        <a href="#" class="navigation__element">Zaloguj się</a>
+        <a href="#" class="navigation__link">HTML</a>
+        <a href="#" class="navigation__link">CSS</a>
+        <a href="#" class="navigation__link">JS</a>
+        <a href="#" class="navigation__link">GIT</a>
+        <a href="#" class="navigation__link navigation__link--about">O MNIE</a>
       </nav>
     </header>
 
     <main>
-
       <header class="banner">
-          <h1 class="banner_h1">WITAM</h1>
+        <h1 class="banner_h1">HOMEPAGE SZKOLENIA</h1>
       </header>
 
-      <section>
-        <h2>Tworzymy stronę na rzecz szkolenia WTF - Co ten frontend</h2>
-        <p>
-          Więc uzywając znaczników "h1-h6" zapisujemy nagłówki, natomiast w
-          znaczniku "p" od słowa <i>paragraph</i> będziemy zapisywali treść.
-          <br />
-          Wszystko zamykamy w sekcji korzystając ze znacznika "section"
-        </p>
-      </section>
-      <section>
-        <h2>Section a Arcticle</h2>
-        <article>
-          <h3>Zobrazowanie</h3>
-          <p>
-            Pan Maciej porównał stronę do gazety, w której mamy sekcję Sport.
+      <section class="notes">
+        <h2 class="notes__header">Najważiejsze notatki</h2>
+
+        <section class="notes__introduction">
+          <h3 class="notes__introduction--header">Tworzymy stronę na rzecz szkolenia WTF - Co ten frontend</h3>
+          <p class="notes__introduction--paragraph">
+            Więc uzywając znaczników "h1-h6" zapisujemy nagłówki, natomiast w
+            znaczniku "p" od słowa <i>paragraph</i> będziemy zapisywali treść.
             <br />
-            W sekcji Sport natomiast mozemy mieć kilka artykułów, które
-            odpowiadają tej sekcji.
-            <br />
-            Zatem ten artykuł jest poświecony zobrazowaniu róznicy między
-            znacznikiem <i>section</i> vs. <i>arcticle</i>
+            Wszystko zamykamy w sekcji korzystając ze znacznika "section"
           </p>
-        </article>
-        <article>
-          <h3>Bez weny przykład</h3>
-          <p>
-            Natomiast w tym artykule powinno się znaleźć coś odnośnie section a
-            article, bo w końcu, temu miała być poświecona ta sekcja, zatem
-            artykuły powinny być w podobnym temacie.
-          </p>
-        </article>
+        </section>
+
+        <section class="notes__introduction">
+          <h3 class="notes__introduction--header">Section a Arcticle</h3>
+          <article class="notes__article">
+            <h4 class="notes__article--header">Zobrazowanie</h4>
+            <p class="notes__article--paragraph">
+              Pan Maciej porównał stronę do gazety, w której mamy sekcję Sport.
+              <br />
+              W sekcji Sport natomiast mozemy mieć kilka artykułów, które
+              odpowiadają tej sekcji.
+              <br />
+              Zatem ten artykuł jest poświecony zobrazowaniu róznicy między
+              znacznikiem <i>section</i> vs. <i>arcticle</i>
+            </p>
+          </article>
+          <article class="notes__article">
+            <h4 class="notes__article--header">Bez weny przykład</h4>
+            <p class="notes__article--paragraph">
+              Natomiast w tym artykule powinno się znaleźć coś odnośnie section
+              a article, bo w końcu, temu miała być poświecona ta sekcja, zatem
+              artykuły powinny być w podobnym temacie.
+            </p>
+          </article>
+        </section>
+
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       Strona domowa na rzecz szkolenia - WTF: Co ten frontend - Wszelkie prawa
       zastrzezone.
       <br />
