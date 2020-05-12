@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-top: 1px solid #000;
 }
 
 .navigation__link {
@@ -56,7 +57,11 @@ body {
     background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg);
     background-position: center center;
     text-align: center;
+    position: relative;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
+
 
 .main__heading {
     margin: 0;
@@ -64,3 +69,49 @@ body {
     color: #7d885d;
     text-shadow: 0px 0px 30px #000;
 }
+
+.notes {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.notes__header {
+    color: #00C49A;
+    font-size: 2.5em; 
+}
+
+.notes__introduction {
+    margin: 3em 0;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.notes__introduction--header {
+    font-size: 1.25em;
+    color: #142c55;
+}
+
+.notes__introduction--wtf {
+    color: #fad843;
+    text-shadow: 2px 2px #fc2f0a;
+}
+
+.notes__introduction--paragraph {
+    color: #156064;
+}
+
+.notes__article {
+    margin-left: 1em;
+}
+
+.notes__article--header {
+    font-size: 1.1em;
+    color: #05668D;
+    margin: 0;
+}
+
+.notes__article--paragraph {
+    color: #156064;
+    margin: 0 0 1em 0;
+}
+
