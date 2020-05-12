@@ -1,3 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;0,900;1,100;1,200;1,600&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    position: sticky;
+    background-color: #626267;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation {
+    padding: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation__link {
+    margin-right: 50px; 
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.navigation__link:hover {
+    color: #e5fa9b;
+    transition: all 0.5s ease;
+}
+
+.navigation__link--logo {
+    margin-right: auto;
+    font-size: 1.5em;
+    text-shadow: 0px 0px 8px #000;
+}
+
+
+.navigation__link--about {
+    
+    padding: 8px;
+    border: 1px solid #86836D;
+    transition: all 0.5s ease;
+}
+
+.navigation__link--about:hover {
+    border: 1px solid #e5fa9b;
+    transition: all 0.5s ease;
+}
+
+.main__header {
+    background-color: #eff3e2;
+    background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg);
+    background-position: center center;
+    text-align: center;
+}
+
+.main__heading {
+    margin: 0;
+    padding: 128px;
+    color: #7d885d;
+    text-shadow: 0px 0px 30px #000;
 }
