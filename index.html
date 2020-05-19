@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Szkolenie</title>
 
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
     <header class="header">
       <nav class="navigation">
-        <a href="index.html" class="navigation__link navigation__link--logo">&lt;/HOME&gt;</a>
-        <a href="html.html" class="navigation__link">HTML</a>
+        <a href="index.html" class="navigation__link navigation__link--logo"
+          >&lt;/HOME&gt;</a
+        >
+        <a href="html.html" class="navigation__link"> HTML</a>
         <a href="css.html" class="navigation__link">CSS</a>
         <a href="js.html" class="navigation__link">JS</a>
         <a href="git.html" class="navigation__link">GIT</a>
-        <a href="about.html" class="navigation__link navigation__link--about">O MNIE</a>
+        <a href="about.html" class="navigation__link navigation__link--about"
+          >O MNIE</a
+        >
       </nav>
     </header>
 
@@ -28,32 +33,55 @@
       <section class="notes">
         <h2 class="notes__header">Pewne zapisane myśli</h2>
 
-        <section class="notes__introduction">
-          <h3 class="notes__introduction--header">HOMEPAGE - czyli strona tworzona przy pomocy szkolenia <span class="notes__introduction--header notes__introduction--wtf">WTF - Co ten frontend</span></h3>
-          <p class="notes__introduction--paragraph">
-            Strona główna, na której zostaną zapisane jedne z ważniejszych informacji podanych na szkoleniu. 
-            </p>
+        <section class="introduction">
+          <h3 class="introduction__header">
+            HOMEPAGE - czyli strona tworzona przy pomocy szkolenia
+            <span class="introduction__header introduction__header--wtf"
+              >WTF - Co ten frontend</span
+            >
+          </h3>
+          <p class="introduction__paragraph">
+            Strona główna, na której zostaną zapisane jedne z ważniejszych
+            informacji podanych na szkoleniu.
+          </p>
         </section>
 
-        <section class="notes__introduction notes__introduction--article">
-          <h3 class="notes__introduction--header">Section vs. Article</h3>
-          <article class="notes__article">
-            <h4 class="notes__article--header">IMAGINATION</h4>
-            <p class="notes__article--paragraph">
-              Pan Maciej porównał stronę do gazety, w której np. mamy sekcję Sport.
+        <section class="introduction">
+          <h3 class="introduction__header">Section vs. Article</h3>
+          <article class="notes-article">
+            <h4 class="notes-article__header">IMAGINATION</h4>
+            <p class="notes-article__paragraph">
+              Pan Maciej porównał stronę do gazety, w której np. mamy sekcję
+              Sport.
               <br />
               W sekcji Sport natomiast możemy mieć kilka artykułów, które
               odpowiadają tej sekcji.
               <br />
-              Zatem ten artykuł jest poświęcony temu, aby można było wyobrazić sobie róznicę między
-              znacznikiem <i>&lt;section&gt;</i> a znacznikiem <i>&lt;article&gt;</i>
+              Zatem ten artykuł jest poświęcony temu, aby można było wyobrazić
+              sobie róznicę między znacznikiem <i>&lt;section&gt;</i> a
+              znacznikiem <i>&lt;article&gt;</i>
             </p>
           </article>
-          <article class="notes__article">
-            <h4 class="notes__article--header">Kolejny artykuł</h4>
-            <p class="notes__article--paragraph">
-              Jest to kolejny artykuł, który powinien być poświęcony konkretnej sekcji. W tym przypadku, jest to sekcja poświęcona pokazaniu różnicy między znacznikami <i>&lt;section&gt;</i>  <i>&lt;article&gt;</i>. 
+          <article class="notes-article">
+            <h4 class="notes-article__header">Kolejny artykuł</h4>
+            <p class="notes-article__paragraph">
+              Jest to kolejny artykuł, który powinien być poświęcony konkretnej
+              sekcji. W tym przypadku, jest to sekcja poświęcona pokazaniu
+              różnicy między znacznikami <i>&lt;section&gt;</i>
+              <i>&lt;article&gt;</i>.
             </p>
+          </article>
+        </section>
+
+        <section class="introduction">
+          <h3 class="introduction__header">Ciekawostka</h3>
+          <p class="introduction__paragraph">
+            Jedną z najtrudniejszych rzeczy
+            <strong class="introduction__special">Frontend Developera</strong>
+            jest - wymyślanie nazw. <br />
+            Wydawało mi się to śmieszne, dopóki się nie przekonałem...
+          </p>
+        </section>
       </section>
     </main>
     <footer class="footer">

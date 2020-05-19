@@ -1,6 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;0,900;1,100;1,200;1,600&display=swap');
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -8,7 +16,7 @@ body {
 
 .header {
     position: sticky;
-    background-color: #626267;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,95,104,1) 0%, rgba(15,156,168,1) 90% );
     top: 0;
     z-index: 1000;
 }
@@ -43,7 +51,7 @@ body {
 .navigation__link--about {
     
     padding: 8px;
-    border: 1px solid #86836D;
+    border: 1px solid #e5fa9b2f;
     transition: all 0.5s ease;
 }
 
@@ -71,8 +79,9 @@ body {
 .main__heading {
     margin: 0;
     padding: 128px;
-    color: #7d885d;
+    color: #a5b475;
     text-shadow: 0px 0px 30px #000;
+    letter-spacing: 8px;
 }
 
 .notes {
@@ -85,43 +94,70 @@ body {
     font-size: 2.5em; 
 }
 
-.notes__introduction {
+.introduction {
     margin: 3em 0;
     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
     padding: 16px;
 }
 
-.notes__introduction--header {
+.introduction__header {
     font-size: 1.25em;
     color: #142c55;
 }
 
-.notes__introduction--wtf {
+.introduction__header--wtf {
     color: #fad843;
     text-shadow: 2px 2px #fc2f0a;
 }
 
-.notes__introduction--paragraph {
+.introduction__paragraph {
     color: #156064;
+    letter-spacing: 1px;
+    width: 80%;
 }
 
-.notes__article {
+.about {
+    display: flex;
+}
+
+.notes__picture {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow:0 1px 40px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.5) inset;
+}
+
+.notes__picture--image {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    filter: brightness(115%);
+}
+
+.notes-article {
     margin-left: 1em;
 }
 
-.notes__article--header {
+.notes-article__header {
     font-size: 1.1em;
     color: #05668D;
     margin: 0;
 }
 
-.notes__article--paragraph {
+.notes-article__paragraph {
     color: #156064;
     margin: 0 0 1em 0;
 }
 
+.introduction__special {
+    font-weight: normal;
+    color: #0fb877;
+}
+
 .footer {
-    background-color: #271F30;
+    background-image: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, rgba(53,92,125,1) 88.8% );
     color: #06adb6;
     height: 128px;
     position: fixed;
