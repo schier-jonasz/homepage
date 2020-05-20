@@ -186,6 +186,11 @@ body {
     border: 1px solid #F5E960;
     background-clip: content-box;
     padding: 0.5em;
+    transition-duration: 0.4s;
+}
+
+.person__image:hover {
+border: 0.5m solid #F5E960;
 }
 
 
@@ -215,6 +220,13 @@ body {
     margin-left: 1.5em;
     transition: all 0.5s ease;
     filter: invert(86%) sepia(13%) saturate(1701%) hue-rotate(5deg) brightness(108%) contrast(92%);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border-radius: 50%;
+}
+
+.person__icon:hover {
+    transform: translateY(-8px);
 }
 
 
