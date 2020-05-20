@@ -214,8 +214,8 @@ body {
 }
 
 .person__icon {
-    width: 5%;
-    margin-left: 1em;
+    width: 6%;
+    margin-left: 1.5em;
     transition: all 0.5s ease;
     filter: invert(86%) sepia(13%) saturate(1701%) hue-rotate(5deg) brightness(108%) contrast(92%);
 }
