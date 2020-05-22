@@ -287,6 +287,8 @@ body {
     position: absolute;
     top: 9px;
     right: -100px;
+    background: none;
+    border: none;
 }
 
 .menu__image {
@@ -307,6 +309,10 @@ body {
     border-top: 1px solid #000;
   }
 
+  .navigation__link {
+      margin-right: 50px;
+  }
+
   .navigation__link--logo {
     margin-right: auto;
     font-size: 1.5em;
@@ -317,5 +323,12 @@ body {
     padding: 8px;
     border: 1px solid #e5fa9b2f;
     transition: all 0.5s ease;
+  }
+
+  .main {
+    background-color: #fff;
+    margin-bottom: 162px;
+    width: 100%;
+    margin-top: 60px;
   }
 }
